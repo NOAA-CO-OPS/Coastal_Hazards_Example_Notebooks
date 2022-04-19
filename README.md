@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository contains examples of Python code in Jupyter Notebooks with step-by-step explanations. This code shows how to retrieve data from the CO-OPS API and create visualizations. API documentation can be found at the top of each notebook. 
+This repository contains examples of Python code in Jupyter Notebooks with step-by-step explanations. This code shows how to retrieve data from the CO-OPS' API and create visualizations. API documentation can be found at the top of each notebook. 
 
 Users can explore CO-OPS' available oceanographic and meteorological data products at https://tidesandcurrents.noaa.gov.
 
