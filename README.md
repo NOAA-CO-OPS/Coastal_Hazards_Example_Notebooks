@@ -1,4 +1,4 @@
-# CO-OPS Repository Template
+# Coastal Hazards Example Notebooks
 
 # Overview
 
