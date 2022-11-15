@@ -7,9 +7,9 @@ This repository contains examples of Python code in Jupyter Notebooks with step-
 Users can explore CO-OPS' available oceanographic and meteorological data products at https://tidesandcurrents.noaa.gov.
 
 For additional information, contact:
-Julia Engdahl and Karen Kavanaugh,
+Karen Kavanaugh and Lindsay Abrams,
 NOAA Center for Operational Oceanographic Products and Services,
-julia.engdahl@noaa.gov and karen.kavanaugh@noaa.gov
+karen.kavanaugh@noaa.gov and lindsay.abrams@noaa.gov
 
 ## NOAA Open Source Disclaimer
 
