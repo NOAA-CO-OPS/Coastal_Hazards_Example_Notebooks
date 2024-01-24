@@ -24,7 +24,7 @@ The [Annual High Tide Flooding Outlook](https://tidesandcurrents.noaa.gov/high-t
 The ***HTF Outlook API retrieval plotting*** notebook provides the glimpse of what CO-OPS does to deliver the Annual High Tide Flooding Outlook. Users will have the opportunity to explore a single station and visualize data. 
 
 ## ***4. SLR_Scenarios_APIretrieval_plotting***
-The projection of future sea levels that are shown in CO-OPS' [Relative Sea Level Trends](https://tidesandcurrents.noaa.gov/sltrends/sltrends.html) page were released in [2022 by a U.S. interagency task force](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html) in preparation for the Fifth National Climate Assessment. The projections for 5 sea level change scenarios are expected to assist decision makers in responding to local relative sea level rise. 
+The projection of future sea levels that are shown in CO-OPS' [Relative Sea Level Trends](https://tidesandcurrents.noaa.gov/sltrends/sltrends.html) page were released in 2022 by the [U.S. interagency task force](https://oceanservice.noaa.gov/hazards/sealevelrise/sealevelrise-tech-report-sections.html) in preparation for the Fifth National Climate Assessment. The projections for 5 sea level change scenarios are expected to assist decision makers in responding to local relative sea level rise. 
 
 The ***SLR Scenarios API retrieval plotting*** notebook is designed to provide users the flexiblity through building api to generate queries from CO-OPS' Data API, MetaData API, and Derived Product API and plot the SLR scenarios. 
 
