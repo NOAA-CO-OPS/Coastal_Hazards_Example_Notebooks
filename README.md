@@ -35,7 +35,6 @@ Users can explore CO-OPS' available oceanographic and meteorological data produc
 
 #### For additional information, contact:
 NOAA Center for Operational Oceanographic Products and Services,
-
 Tigist jima, Lindsay Abrams, Karen Kavanaugh, and/or Bailey Armos
 
 tigist.jima@noaa.gov, lindsay.abrams@noaa.gov, karen.kavanaugh@noaa.gov and/or 
