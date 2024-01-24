@@ -29,13 +29,15 @@ The projection of future sea levels that are shown in CO-OPS' [Relative Sea Leve
 The ***SLR Scenarios API retrieval plotting*** notebook is designed to provide users the flexiblity through building api to generate queries from CO-OPS' Data API, MetaData API, and Derived Product API and plot the SLR scenarios. 
 
 ## ***5. HTF_APIretrieval_MultiYear_Heatmap***
-The ***HTF API retrieval MultiYear Heatmap*** notebook is designed to show users the heatmap of historical flood hours/days, where the observed water level was more than specified [National Ocean Service (NOS) flooding thresholds](https://www.tidesandcurrents.noaa.gov/publications/techrpt86_PaP_of_HTFlooding.pdf).
+The ***HTF API retrieval MultiYear Heatmap*** notebook is designed to show users the heatmap of historical flood hours/days, where the observed water level was more than the specified [National Ocean Service (NOS) flooding thresholds](https://www.tidesandcurrents.noaa.gov/publications/techrpt86_PaP_of_HTFlooding.pdf).
 
 Users can explore CO-OPS' available oceanographic and meteorological data products at https://tidesandcurrents.noaa.gov.
 
 #### For additional information, contact:
 NOAA Center for Operational Oceanographic Products and Services,
+
 Tigist jima, Lindsay Abrams, Karen Kavanaugh, and/or Bailey Armos
+
 tigist.jima@noaa.gov, lindsay.abrams@noaa.gov, karen.kavanaugh@noaa.gov and/or 
 bailey.armos@noaa.gov
 
