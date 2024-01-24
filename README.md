@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository contains examples of Python code in Jupyter Notebooks/Gooogle Colabs with step-by-step explanations. These notebooks show users how to retrieve data from the NOAA's Center for Operational Oceanographic Products and Services' (CO-OPS') Data, MetaData and Drived Products APIs, visualize data, and do some level statistical analysis. API documentations and data sources can be found at the top of each notebook. The example notebooks include:
+This repository contains examples of Python codes in Jupyter Notebooks/Gooogle Colabs with step-by-step explanations. These notebooks show users how to retrieve data from the NOAA's Center for Operational Oceanographic Products and Services' (CO-OPS') [Data](https://api.tidesandcurrents.noaa.gov/api/prod/), [MetaData](https://api.tidesandcurrents.noaa.gov/mdapi/prod/) and [Drived Products](https://api.tidesandcurrents.noaa.gov/dpapi/prod/) APIs, visualize data, and do some level statistical analysis. API documentations and data sources can be found at the top of each notebook. The example notebooks include:
 
 ### Sea_Level_Rise_Station_Exploration_Notebook
 CO-OPS is the nation's authoritative source for coastal inundation data and sea level trends through its network of long-term water level gauges, the National Water Level Observation Network (NWLON). Using these trends as a guide, communities can implement long-term adaptation plans to protect their economy from coastal hazards.
