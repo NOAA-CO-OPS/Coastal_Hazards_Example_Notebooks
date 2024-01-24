@@ -34,11 +34,7 @@ The ***HTF API retrieval MultiYear Heatmap*** notebook is designed to show users
 Users can explore CO-OPS' available oceanographic and meteorological data products at https://tidesandcurrents.noaa.gov.
 
 #### For additional information, contact:
-NOAA Center for Operational Oceanographic Products and Services,
-Tigist jima, Lindsay Abrams, Karen Kavanaugh, and/or Bailey Armos
-
-tigist.jima@noaa.gov, lindsay.abrams@noaa.gov, karen.kavanaugh@noaa.gov and/or 
-bailey.armos@noaa.gov
+NOAA's [Center for Operational Oceanographic Products and Services](https://tidesandcurrents.noaa.gov/contact.html)
 
 ## NOAA Open Source Disclaimer
 
