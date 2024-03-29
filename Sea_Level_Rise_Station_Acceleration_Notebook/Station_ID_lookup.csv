@@ -1,0 +1,118 @@
+Station_NAME,STATION_ID,Station_NAME_tg,PSMSL_id
+"Nawiliwili, HI",1611400,"Nawiliwili, HI",756
+"Honolulu, HI",1612340,"Honolulu, HI",155
+"Mokuoloe, HI",1612480,"Mokuoloe, HI",823
+"Kahului, Kahului Harbor, HI",1615680,"Kahului, HI",521
+"Kawaihae, HI",1617433,"Kawaihae, HI",2128
+"Hilo, Hilo Bay, Kuhio Bay, HI",1617760,"Hilo, HI",300
+"Sand Island, Midway Islands, United States of America",1619910,Midway Island,523
+"Apra Harbor, Guam, United States of America",1630000,"Apra Harbor, Guam",540
+"Pago Pago, American Samoa, American Samoa",1770000,"Pago Pago, American Samoa ",539
+"Kwajalein, Marshall Islands, United States of America",1820000,Kwajalein Island,513
+"Wake Island, Pacific Ocean, United States of America",1890000,Wake Island,595
+"Eastport, ME",8410140,"Eastport, ME",332
+"Bar Harbor, ME",8413320,"Bar Harbor, ME",525
+"Portland, ME",8418150,"Portland, ME",183
+"Boston, MA",8443970,"Boston, MA",235
+"Woods Hole, MA",8447930,"Woods Hole, MA",367
+"Nantucket Island, MA",8449130,"Nantucket Island, MA",1111
+"Newport, RI",8452660,"Newport, RI",351
+"Providence, RI",8454000,"Providence, RI",430
+"New London, CT",8461490,"New London, CT",429
+"Bridgeport, CT",8467150,"Bridgeport, CT",1068
+"Montauk, NY",8510560,"Montauk, NY",519
+"Kings Point, NY",8516945,"Kings Point, NY",2322
+"The Battery, NY",8518750,"The Battery, NY",12
+"Bergen Point West Reach, NY",8519483,"Bergen Point, NY",1637
+"Sandy Hook, NJ",8531680,"Sandy Hook, NJ",366
+"Atlantic City, NJ",8534720,"Atlantic City, NJ",180
+"Cape May, NJ",8536110,"Cape May, NJ",1153
+"Philadelphia, PA",8545240,"Philadelphia, PA",135
+"Reedy Point, DE",8551910,"Reedy Point, DE",786
+"Lewes, DE",8557380,"Lewes, DE",224
+"Cambridge, MD",8571892,"Cambridge, MD",1295
+"Tolchester Beach, MD",8573364,"Tolchester Beach, MD",2323
+"Baltimore, MD",8574680,"Baltimore, MD",148
+"Annapolis, MD",8575512,"Annapolis, MD",311
+"Solomons Island, MD",8577330,"Solomons Island, MD",412
+"Washington, DC",8594900,"Washington, DC",360
+"Wachapreague, VA",8631044,Wachapreague,2293
+"Kiptopeke, VA",8632200,Kiptopeke,636
+"Lewisetta, VA",8635750,Lewisetta,2324
+"Sewells Point, VA",8638610,Sewells Point,299
+"Chesapeake Bay Bridge Tunnel, VA",8638863,Chesapeake Bay Bridge,1635
+"Duck, NC",8651370,"Duck, NC",1636
+"Oregon Inlet Marina, NC",8652587,"Oregon Inlet, NC ",2325
+"Beaufort, Duke Marine Lab, NC",8656483,"Beaufort, NC",2295
+"Wilmington, NC",8658120,"Wilmington, NC",396
+"Springmaid Pier, SC",8661070,"Springmaid Pier, SC",1444
+"Charleston, SC",8665530,"Charleston, SC",234
+"Fort Pulaski, GA",8670870,"Fort Pulaski, GA",395
+"Fernandina Beach, FL",8720030,"Fernandina Beach, FL",112
+"Mayport (Bar Pilots Dock), FL",8720218,"Mayport, FL",2326
+"Trident Pier, Port Canaveral, FL",8721604,"Trident Pier, FL",2123
+"Virginia Key, Biscayne Bay, FL",8723214,"Virginia Key, FL",1858
+"Vaca Key, Florida Bay, FL",8723970,"Vaca Key, FL",1701
+"Key West, FL",8724580,"Key West, FL",188
+"Naples, Gulf of Mexico, FL",8725110,"Naples, FL",1107
+"Fort Myers, FL",8725520,"Fort Myers, FL",1106
+"St. Petersburg, Tampa Bay, FL",8726520,"St. Petersburg, FL",520
+"Clearwater Beach, FL",8726724,"Clearwater, FL",1638
+"Cedar Key, FL",8727520,"Cedar Key, FL",428
+"Apalachicola, FL",8728690,"Apalachicola, FL",1193
+"Panama City, FL",8729108,"Panama City, FL",1641
+"Panama City Beach, FL",8729210,"Panama City Beach, FL",-1
+"Pensacola, FL",8729840,"Pensacola, FL",246
+"Dauphin Island, AL",8735180,"Dauphin Island, AL",1156
+"Bay Waveland Yacht Club, MS",8747437,"Bay Waveland, MS",2215
+"Grand Isle, LA",8761724,"Grand Isle, LA",526
+"Sabine Pass North, TX",8770570,"Sabine Pass, TX",1835
+"Galveston Pier 21, TX",8771450,"Galveston Pier 21, TX",161
+"Rockport, TX",8774770,"Rockport, TX",538
+"Bob Hall Pier, Corpus Christi, TX",8775870,"Corpus Christi, TX",1903
+"Port Isabel, TX",8779770,"Port Isabel, TX",497
+"San Diego, CA",9410170,San Diego,158
+"La Jolla, CA",9410230,La Jolla,256
+"Los Angeles, CA",9410660,Los Angeles,245
+"Santa Monica, CA",9410840,Santa Monica,377
+"Port San Luis, CA",9412110,Port San Luis,508
+"Monterey, CA",9413450,Monterey,1352
+"San Francisco, CA",9414290,San Francisco,10
+"Alameda, CA",9414750,Alameda,437
+"Point Reyes, CA",9415020,Point Reyes,1394
+"Port Chicago, CA",9415144,Port Chicago,2330
+"Arena Cove, CA",9416841,Arena Cove,2125
+"North Spit, CA",9418767,Humboldt Bay,1639
+"Crescent City, CA",9419750,Crescent City,378
+"Port Orford, OR",9431647,Port Orford,1640
+"Charleston, OR",9432780,"Charleston, OR",1269
+"South Beach, OR",9435380,"South Beach, OR",1196
+"Astoria, OR",9439040,"Astoria, OR",265
+"Toke Point, WA",9440910,Toke Point,1354
+"Neah Bay, WA",9443090,Neah Bay,385
+"Port Angeles, WA",9444090,Port Angeles,2127
+"Port Townsend, WA",9444900,Port Townsend,1325
+"Seattle, WA",9447130,Seattle,127
+"Cherry Point, WA",9449424,Cherry Point,1633
+"Friday Harbor, WA",9449880,Friday Harbor,384
+"Ketchikan, AK",9450460,"Ketchikan, AK",225
+"Sitka, AK",9451600,"Sitka, AK",426
+"Juneau, AK",9452210,"Juneau, AK",405
+"Skagway, Taiya Inlet, AK",9452400,"Skagway, AK",495
+"Yakutat, Yakutat Bay, AK",9453220,"Yakutat, AK",445
+"Cordova, AK",9454050,"Cordova, AK",566
+"Valdez, AK",9454240,"Valdez, AK",1353
+"Seldovia, AK",9455500,"Seldovia, AK",1070
+"Nikiski, AK",9455760,"Nikiski, AK",1350
+"Anchorage, AK",9455920,"Anchorage, AK",1067
+"Kodiak Island, AK",9457292,"Kodiak Island, AK",567
+"Sand Point, AK",9459450,"Sand Point, AK",1634
+"Adak Island, AK",9461380,"Adak Island, AK ",487
+"Unalaska, AK",9462620,"Unalaska, AK",757
+"Port Moller, AK",9463502,"Port Moller, AK",-1
+"Nome, Norton Sound, AK",9468756,"Nome, AK",1800
+"Prudhoe Bay, AK",9497645,"Prudhoe Bay, AK",1857
+"Lime Tree Bay, VI",9751401,"Lime Tree Bay, VI",1447
+"Charlotte Amalie, VI",9751639,"Charlotte Amalie, VI",1393
+"San Juan, La Puntilla, San Juan Bay, PR",9755371,"San Juan, PR",1001
+"Magueyes Island, PR",9759110,"Magueyes Island, PR",759
