@@ -97,15 +97,16 @@ for i in station_list:
   station_annual = pd.DataFrame(mydata)
   
   last_year_obs = station_annual[station_annual['metYear']==int(met_year)]
-  last_year_df=last_year_df.append(last_year_obs)
+  last_year_df=pd.concat([last_year_df,last_year_obs],ignore_index=True)
 
   historic_max = station_annual['minCount'].idxmax()
-  historic_max_year = station_annual.iloc[historic_max]
-  historic_df = historic_df.append(historic_max_year)
+  historic_max_year = station_annual.iloc[[historic_max]]
+  historic_df = pd.concat([historic_df,historic_max_year],ignore_index=True)
 
   last_year_df=last_year_df.reset_index(drop=True)
 
   historic_df=historic_df.reset_index(drop=True)
+print(historic_df)
 
 HTF_Annual_outlook_station_stats['prev_observed'] = last_year_df['minCount']
 HTF_Annual_outlook_station_stats['range'] = np.nan
@@ -281,7 +282,7 @@ df_con['percent_above']=conus_percent_above
 df_con['percent_within']=conus_percent_within
 df_con['percent_below']=conus_percent_below
 
-num_station_region=num_station_region.append(df_con)
+num_station_region = pd.concat([num_station_region,df_con])
 
 total_num_stations = len(HTF_Annual_outlook_station_stats['Station_ID'].unique())
 
@@ -305,7 +306,7 @@ df_tot['percent_above']=total_percent_above
 df_tot['percent_within']=total_percent_within
 df_tot['percent_below']=total_percent_below
 
-num_station_region=num_station_region.append(df_tot)
+num_station_region = pd.concat([num_station_region,df_tot])
 num_station_region=num_station_region.fillna(0.0)
 
 HTF_Annual_outlook_region_stats.index=HTF_Annual_outlook_region_stats['Region']
@@ -327,7 +328,7 @@ additional_regions = [median_us,median_conus]
 
 additional_df = pd.DataFrame({'current_highConf': additional_regions},index=['US','CONUS'])
 
-median_regions=median_regions.append(additional_df)
+median_regions = pd.concat([median_regions,additional_df])
 
 HTF_Annual_outlook_region_stats['median_current_highConf'] = median_regions
 
@@ -341,7 +342,7 @@ additional_regions = [median_us,median_conus]
 
 additional_df = pd.DataFrame({'current_lowConf': additional_regions},index=['US','CONUS'])
 
-median_regions=median_regions.append(additional_df)
+median_regions = pd.concat([median_regions,additional_df])
 
 HTF_Annual_outlook_region_stats['median_current_lowConf'] = median_regions
 
@@ -362,7 +363,7 @@ additional_regions = [median_us,median_conus]
 
 additional_df = pd.DataFrame({'days_increase_trend_only': additional_regions},index=['US','CONUS'])
 
-median_regions=median_regions.append(additional_df)
+median_regions = pd.concat([median_regions,additional_df])
 
 HTF_Annual_outlook_region_stats['median_days_increase_trend_only'] = median_regions
 
@@ -376,7 +377,7 @@ additional_regions = [median_us,median_conus]
 
 additional_df = pd.DataFrame({'days_increase_chosen_method': additional_regions},index=['US','CONUS'])
 
-median_regions=median_regions.append(additional_df)
+median_regions = pd.concat([median_regions,additional_df])
 
 HTF_Annual_outlook_region_stats['median_days_increase_chosen_method'] = median_regions
 
@@ -393,20 +394,19 @@ max_conus_df = pd.DataFrame({'Station_ID':max_conus[1]},index=['CONUS'])
 max_conus_df['Region']=max_conus[2]
 max_conus_df['prev_observed']=max_conus[6]
 
-max_regions = max_regions.append(max_conus_df)
+max_regions = pd.concat([max_regions,max_conus_df])
 
 max_us = HTF_Annual_outlook_station_stats.loc[HTF_Annual_outlook_station_stats['prev_observed'].idxmax()]
 max_us_df = pd.DataFrame({'Station_ID':max_us[1]},index=['US'])
 max_us_df['Region']=max_us[2]
 max_us_df['prev_observed']=max_us[6]
 
-max_regions = max_regions.append(max_us_df)
+max_regions = pd.concat([max_regions,max_us_df])
 
 HTF_Annual_outlook_region_stats['ID_for_prev_highest'] = max_regions['Station_ID']
 HTF_Annual_outlook_region_stats['Highest_prev_observed'] = max_regions['prev_observed']
 
 #Which station within region is predicted to have the largest number of observed HTF days next year?  What is that value?
-#want mid or highConf?
 max_regions = HTF_Annual_outlook_station_stats.loc[HTF_Annual_outlook_station_stats.groupby('Region')['current_mid'].idxmax()]
 max_regions = max_regions[['Station_ID','Region','current_mid']]
 max_regions.index=max_regions['Region']
@@ -416,14 +416,14 @@ max_conus_df = pd.DataFrame({'Station_ID':max_conus[1]},index=['CONUS'])
 max_conus_df['Region']=max_conus[2]
 max_conus_df['current_mid']=max_conus[6]
 
-max_regions = max_regions.append(max_conus_df)
+max_regions = pd.concat([max_regions,max_conus_df])
 
 max_us = HTF_Annual_outlook_station_stats.loc[HTF_Annual_outlook_station_stats['current_mid'].idxmax()]
 max_us_df = pd.DataFrame({'Station_ID':max_us[1]},index=['US'])
 max_us_df['Region']=max_us[2]
 max_us_df['current_mid']=max_us[6]
 
-max_regions = max_regions.append(max_us_df)
+max_regions = pd.concat([max_regions,max_us_df])
 
 HTF_Annual_outlook_region_stats['ID_for_pred_highest'] = max_regions['Station_ID']
 HTF_Annual_outlook_region_stats['Highest_predicted'] = max_regions['current_mid']

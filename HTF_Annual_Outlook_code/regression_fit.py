@@ -170,8 +170,6 @@ for station, station_df in flood_cts_oni.groupby('stnId'):
 
     # Quadratic 
     # y =a*x^2 + b*x + c
-
-    at^2+btONI+ct+dONI^2+eONI+f
     
     quad_model = smf.ols(formula='y ~ np.power(x,2)+x',data=format_df).fit(method='qr')
 

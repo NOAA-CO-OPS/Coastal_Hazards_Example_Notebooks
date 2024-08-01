@@ -66,11 +66,11 @@ cpc_oni_df['ONI'] = anom_list
 
 year_list = cpc_oni_df['YR'].unique().tolist()
 
-cpc_oni_df.to_csv(f'{data_dir}\\enso_oni.csv',index=False)
+#can uncomment if wanting to download this info
+#cpc_oni_df.to_csv(f'{data_dir}\\enso_oni.csv',index=False)
 
 # Saves ONI data as a csv
-
-print(f"CPC ONI CSV created as {data_dir}\\enso_oni.csv\n")
+#print(f"CPC ONI CSV created as {data_dir}\\enso_oni.csv\n")
 
 annual_means = pd.DataFrame(columns=['Year', 'ONI Calendar Year', 'ONI Met Year', 'ONI Cool Season'])
 
