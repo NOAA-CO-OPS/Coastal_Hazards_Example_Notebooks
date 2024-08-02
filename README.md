@@ -40,8 +40,11 @@ The ***HTF API retrieval MultiYear Heatmap*** notebook is designed to show users
 
 Users can explore CO-OPS' available oceanographic and meteorological data products at https://tidesandcurrents.noaa.gov.
 
+## ***7. HTF_Annual_Outlook_code***
+The ***HTF Annual Outlook Code*** contains the python code to run and produce the [Annual HTF Outlook](https://tidesandcurrents.noaa.gov/high-tide-flooding/annual-outlook.html). It also includes python scripts to produce graphics and statistics for the Annual Outlook results as well as an interactive notebook that walks through the results and how to produce graphics from a national and station-based perspective. 
+
 #### For additional information, contact:
-NOAA's Center for Operational Oceanographic Products and Services, [Costal Hazards Branch](https://tidesandcurrents.noaa.gov/coastal_hazards.html)
+NOAA's Center for Operational Oceanographic Products and Services, [Coastal Hazards Branch](https://tidesandcurrents.noaa.gov/coastal_hazards.html)
 
 nos.co-ops.chb@noaa.gov
 
