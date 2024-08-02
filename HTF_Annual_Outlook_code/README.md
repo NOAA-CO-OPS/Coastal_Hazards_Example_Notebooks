@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository contains Python code used to produce NOAA’s Annual High Tide Flooding (HTF) Outlook. This code which was originally written in MatLab has been translated to Python to streamline and automate the process of producing Annual HTF Outlooks, and provide broader, open-source access to authoritative data sources. This suite of code was first used to develop the 2024-25 Annual HTF Outlook, and is the operational source code for future Annual HTF Outlooks until methods are modified or enhanced further. It also contains scripts to generate station-based and regional-based statistics as well as graphics. In addition, there is an interactive notebook in which the user can explore the underlying data and results.
+The [Annual High Tide Flooding (HTF) Outlook](https://tidesandcurrents.noaa.gov/high-tide-flooding/annual-outlook.html) is NOAA’s product that provides the number of predicted high tide flooding days for the upcoming meteorological year (May to April). This repository contains Python code used to produce NOAA’s Annual High Tide Flooding (HTF) Outlook. This code which was originally written in MatLab has been translated to Python to streamline and automate the process of producing Annual HTF Outlooks, and provide broader, open-source access to authoritative data sources. This suite of code was first used to develop the 2024-25 Annual HTF Outlook, and is the operational source code for future Annual HTF Outlooks until methods are modified or enhanced further. It also contains scripts to generate station-based and regional-based statistics as well as graphics. In addition, there is an interactive notebook in which the user can explore the underlying data and results.
 
 ## ***Set Up***
 To run the code, users will need to set up a virtual environment with certain modules. The ht_outlook.yml file provides the conda environment needed to run all of the scripts in this project. 
@@ -11,11 +11,11 @@ Simply create the environment using this command in your terminal:
 conda env create -f ht_outlook.yml
 
 And activate the environment:
-conda activate myenv
+conda activate ht_outlook
 
 The user will also need to make changes to the configuration file for the code, as detailed in the next section.
 
-## ***Modifying the Configuration File***:
+## ***Modifying the Configuration aFile***:
 The configuration file for the code will be downloaded along the rest of the code, and is named ‘config.cfg’. Two parameters must be changed, while changing the others is optional.
 Change the Run Year: 
 
@@ -28,7 +28,7 @@ The name of the station list file must be defined here. If the file is included 
 If the station file is located in a different folder than the code, the full file path must be included along with the file name (i.e., stn_list_file = C:\HTF_Annual_Outlook_StationList_2024.csv)
 
 Optional: Change Directories:
-If the default directories are not created and a different set of directories are going to be used, the work_dir, run_dir, and data_dir parameters should be changed to match the desired directory paths. 
+If the default directories are not created and a different set of directories are going to be used, the work_dir, run_dir, and data_dir parameters should be changed to match the desired directory paths. Make sure to create the desired directory before running the code.
 
 Optional: Change Other Parameters:
 
