@@ -44,9 +44,9 @@ Users can explore CO-OPS' available oceanographic and meteorological data produc
 The ***HTF Annual Outlook Code*** contains the python code to run and produce the [Annual HTF Outlook](https://tidesandcurrents.noaa.gov/high-tide-flooding/annual-outlook.html). It also includes python scripts to produce graphics and statistics for the Annual Outlook results as well as an interactive notebook that walks through the results and how to produce graphics from a national and station-based perspective. 
 
 #### For additional information, contact:
-NOAA's Center for Operational Oceanographic Products and Services, [Coastal Hazards Branch](https://tidesandcurrents.noaa.gov/coastal_hazards.html)
+NOAA's [Center for Operational Oceanographic Products and Services](https://tidesandcurrents.noaa.gov/)
+User Services: tide.predictions@noaa.gov
 
-nos.co-ops.chb@noaa.gov
 
 ## NOAA Open Source Disclaimer
 
