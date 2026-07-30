@@ -53,7 +53,7 @@ The ***Observed Sea Levels Station Exploration Notebook*** will review, plot, an
 
 ## ***9. SL_Trend_and_Change_Calculation_Notebook***
 
-NOAA's Center for Operational Oceanographic Products and Services (CO-OPS) is the nation's source for [coastal inundation data and sea level trends](https://tidesandcurrents.noaa.gov/sea_level_info.html) through its network of long-term water level gauges. These gauges provide the foundational data for CO-OPS's official [Sea Level Trends](https://tidesandcurrents.noaa.gov/trends-and-extremes/main-product.html?mapTab=station&tab=trends) products, which are critical for communities to understand observed sea levels and past changes.
+NOAA's Center for Operational Oceanographic Products and Services (CO-OPS) is the nation's source for [coastal inundation data and sea level trends](https://tidesandcurrents.noaa.gov/sea_level_info.html) through its network of long-term water level gauges. These gauges provide the foundational data for CO-OPS's official [Integrated Trends and Extremes Product](https://tidesandcurrents.noaa.gov/trends-and-extremes) and are critical for communities to understand past changes in observed sea levels.
 
 The ***Sea Level Trend and Change Calculation Notebook*** walks users through the exact methodology CO-OPS uses to calculate these trends and amount of change. It allows users to explore historical sea level data and replicate the calculations for both trend since the National Tidal Datum Epoch (NTDE) as well the change amount over the period of record (POR) and since the NTDE.
 
